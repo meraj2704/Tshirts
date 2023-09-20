@@ -1,0 +1,9 @@
+.family{
+    border: 1px solid gold;
+    margin: 5px;
+    padding: 14px;
+    border-radius: 10px;
+}
+.flex{
+    display: flex;
+}

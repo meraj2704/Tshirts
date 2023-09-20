@@ -11,6 +11,7 @@ import Home from './Components/Home/Home.jsx';
 import About from './components/About/About.jsx';
 import Review from './components/Review/Review.jsx';
 import Contact from './components/Contact/Contact.jsx';
+import Grandpa from './components/Grandpa/Grandpa.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -32,6 +33,11 @@ const router = createBrowserRouter([
       {
         path:'contact',
         element:<Contact></Contact>
+      }
+      ,
+      {
+        path:'grandpa',
+        element:<Grandpa></Grandpa>
       }
     ]
   }
