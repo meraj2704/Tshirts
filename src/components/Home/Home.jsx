@@ -26,6 +26,7 @@ const Home = () => {
         const remaining = carts.filter(ts => ts._id !== id);
         setCart(remaining);
     }
+    
     return (
         <div className='home-container'>
             <div className='t-shirts-container'>
